@@ -17,9 +17,9 @@ import {
   SeparatorVerticalIcon,
 } from "lucide-react";
 
-import { motion } from "motion/react";
+import { motion, type Variants } from "motion/react";
 
-const fadeInUp = {
+const fadeInUp: Variants = {
   hidden: {
     opacity: 0,
     y: 30,
@@ -34,7 +34,7 @@ const fadeInUp = {
   },
 };
 
-const fadeInLeft = {
+const fadeInLeft: Variants = {
   hidden: {
     opacity: 0,
     x: -30,
@@ -49,7 +49,7 @@ const fadeInLeft = {
   },
 };
 
-const fadeInRight = {
+const fadeInRight: Variants = {
   hidden: {
     opacity: 0,
     x: 30,
@@ -64,7 +64,7 @@ const fadeInRight = {
   },
 };
 
-const staggerContainer = {
+const staggerContainer: Variants = {
   hidden: {
     opacity: 0,
   },
@@ -76,7 +76,7 @@ const staggerContainer = {
   },
 };
 
-const scaleIn = {
+const scaleIn: Variants = {
   hidden: {
     opacity: 0,
     scale: 0.96,
